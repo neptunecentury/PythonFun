@@ -1,5 +1,5 @@
 
-someNames = ['Apple', 'Car']
+someNames = ['Apple', 'Car', 'Banana']
 for name in someNames:
     print(name)
 
