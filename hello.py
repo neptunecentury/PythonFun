@@ -10,7 +10,7 @@ fav = input("Which one is your favorite? ")
 fav = fav.lower()
 # The below code checks what your favorite is and then responds.
 if fav == 'apple':
-    print("Hey! That's my favorite too! \\o/")
+    print("Hey! That's my favorite too! \n\o/")
     print("You're the best!")
 elif fav == 'car':
     print("Cars are cool, I guess...")
