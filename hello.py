@@ -5,7 +5,7 @@ for name in someNames:
 
 # This is a comment. Ask the user which is their favorite
 fav = input("Which one is your favorite? ")
-# Conver the user's response to lower case so that it is easy
+# Convert the user's response to lower case so that it is easy
 # to test what they said.
 fav = fav.lower()
 # The below code checks what your favorite is and then responds.
