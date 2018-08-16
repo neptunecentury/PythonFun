@@ -49,3 +49,17 @@ myOtherCat.meow()
 
 # What color is the cat?
 print("{0} is a {1} cat.".format(myOtherCat.name, myOtherCat.color))
+
+# Let's define an array of cats! It's empty, because we are going to add
+# cats to it in a loop. Let's get 10 cats!
+crazyCats = []
+for index in range(10):
+    # Create a new cat and just name it cat 0, cat 1, etc... We won't worry about
+    # color. They're all black cats
+    newCat = Cat("Cat {0}".format(index))
+    crazyCats.append(newCat)
+
+# Let's make them all meow!
+for cat in crazyCats:
+    cat.meow()
+
