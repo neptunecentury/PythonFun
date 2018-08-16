@@ -49,3 +49,13 @@ myOtherCat.meow()
 
 # What color is the cat?
 print("{0} is a {1} cat.".format(myOtherCat.name, myOtherCat.color))
+
+# Let's say I found a kitten.
+kitten = Cat("Jingles", "Purple")
+
+# The kitten can pur and meow
+kitten.pur()
+kitten.meow()
+
+# Let's introduce her to the world!
+print("Hello world! I am {0}, the {1} kitten!".format(kitten.name, kitten.color))
