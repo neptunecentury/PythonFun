@@ -3,13 +3,13 @@
 
 class Candy:
     name = None
-    color = None
-    def __init__(self, name, color="Chocolate"):
+    candyType = None
+    def __init__(self, name, candyType="Chocolate"):
         self.name = name
-        self.color = color
+        self.candyType = candyType
 
 
-candies = ["KitKat", "M&Ms", "Snickers","Pay Day", "Twix"]
+candies = [Candy("KitKat"), Candy("M&Ms"), Candy("Snickers"),Candy("Pay Day"), Candy("Twix")]
 machineOn = True
 while machineOn:
     # Show the options to the user, and allow them to make a selection. We will use the enumerate function
@@ -17,7 +17,7 @@ while machineOn:
     print("Please enter a selection:")
     for index, candy in enumerate(candies):
         # Display the option with it's index, so the user knows what selection to make
-        print("{0} - {1}".format(index, candy))
+        print("{0} - {1}".format(index, candy.name))
 
     # Print message to show user how to exit    
     print("Press x to quit.")
