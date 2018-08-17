@@ -1,5 +1,14 @@
 # In this example, we will reference an item in the array by its index. An index is the position the
 # item is in, 0 being the first index.
+
+class Candy:
+    name = None
+    color = None
+    def __init__(self, name, color="Chocolate"):
+        self.name = name
+        self.color = color
+
+
 candies = ["KitKat", "M&Ms", "Snickers","Pay Day", "Twix"]
 machineOn = True
 while machineOn:

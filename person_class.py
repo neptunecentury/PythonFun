@@ -13,3 +13,6 @@ class Person:
         # string, you'll need to escape them with a \, or else the interpreter
         # will think you are closing the string.
         print("{0} says \"{1}\"".format(self.name, words))
+
+Boy = Person("Eric")
+Boy.speak("Hello")
