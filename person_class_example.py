@@ -9,6 +9,17 @@ def run():
     # Make frank say something
     frank.speak("Hi, I'm an instance of a Person object. Whoo hooo!")
 
+    Boy = Person("Eric")
+    Boy.speak("Hello!")
+
+    Girl = Person("Cindy")
+    Girl.speak("Meow!")
+
+    Man = Person("John")
+    Man.speak("Yay, it's Friday!")
+
+    Woman = Person("Rachel")
+    Woman.speak("I'm ready for the weekend!")
 
 # Run the app
 run()
