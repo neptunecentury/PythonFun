@@ -26,6 +26,10 @@ class Cat:
     # Let's define a meow method
     def meow(self):
         print("{0} says meow".format(self.name))
+
+    # Let's define an eat method
+    def eat(self):
+        print ("{0} says nom nom nom".format(self.name))
 #End Class - I miss code blocks :(
 
 # OK, now lets create a cat and give it a name!
@@ -36,6 +40,7 @@ myCat = Cat("Meowster")
 # The cat can pur and meow. We call a method like so:
 myCat.pur()
 myCat.meow()
+myCat.eat()
 
 # What color is the cat?
 print("{0} is a {1} cat.".format(myCat.name, myCat.color))
@@ -46,10 +51,21 @@ myOtherCat = Cat("Big Fluffy", "Pink")
 # The cat can pur and meow
 myOtherCat.pur()
 myOtherCat.meow()
+myOtherCat.eat()
 
 # What color is the cat?
 print("{0} is a {1} cat.".format(myOtherCat.name, myOtherCat.color))
 
+# Let's say I found a kitten.
+kitten = Cat("Jingles", "Purple")
+
+# The kitten can pur and meow
+kitten.pur()
+kitten.meow()
+kitten.eat()
+
+# Let's introduce her to the world!
+print("Hello world! I am {0}, the {1} kitten!".format(kitten.name, kitten.color))
 # Let's define an array of cats! It's empty, because we are going to add
 # cats to it in a loop. Let's get 10 cats!
 crazyCats = []
@@ -62,4 +78,5 @@ for index in range(10):
 # Let's make them all meow!
 for cat in crazyCats:
     cat.meow()
+    cat.eat()
 
